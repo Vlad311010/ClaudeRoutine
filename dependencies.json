@@ -1,0 +1,34 @@
+{
+  "services": [
+    {
+      "name": "GitHub",
+      "role": "Source control & CI",
+      "statusPage": "https://www.githubstatus.com/api/v2/summary.json"
+    },
+    {
+      "name": "AWS",
+      "role": "Cloud infrastructure (EC2, S3, RDS)",
+      "statusPage": "https://health.aws.amazon.com/health/status"
+    },
+    {
+      "name": "Stripe",
+      "role": "Payment processing",
+      "statusPage": "https://status.stripe.com/"
+    },
+    {
+      "name": "SendGrid",
+      "role": "Transactional email",
+      "statusPage": "https://status.sendgrid.com/api/v2/summary.json"
+    },
+    {
+      "name": "Datadog",
+      "role": "Monitoring & alerting",
+      "statusPage": "https://status.datadoghq.com/api/v2/summary.json"
+    },
+    {
+      "name": "Cloudflare",
+      "role": "CDN & DDoS protection",
+      "statusPage": "https://www.cloudflarestatus.com/api/v2/summary.json"
+    }
+  ]
+}
