@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "Title": "Fix login bug on Safari",
+    "Description": "Users report they cannot log in using Safari 17+",
+    "Status": "InProgress",
+    "Priority": "Critical",
+    "CreatedAt": "2026-06-10T08:00:00Z",
+    "CompletedAt": null
+  },
+  {
+    "Id": 2,
+    "Title": "Add export to CSV",
+    "Description": "Allow users to export their task list as a CSV file",
+    "Status": "Todo",
+    "Priority": "Medium",
+    "CreatedAt": "2026-06-11T09:00:00Z",
+    "CompletedAt": null
+  },
+  {
+    "Id": 3,
+    "Title": "Write unit tests for TaskService",
+    "Description": "",
+    "Status": "Todo",
+    "Priority": "High",
+    "CreatedAt": "2026-06-12T10:00:00Z",
+    "CompletedAt": null
+  },
+  {
+    "Id": 4,
+    "Title": "Update README",
+    "Description": "Add usage examples and contribution guide",
+    "Status": "Done",
+    "Priority": "Low",
+    "CreatedAt": "2026-06-13T11:00:00Z",
+    "CompletedAt": "2026-06-14T15:00:00Z"
+  }
+]
