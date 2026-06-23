@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "task-manager-db": {
+      "command": "node",
+      "args": ["./tools/mcp-server.js"],
+      "env": {
+        "DB_PATH": "./data/tasks.db"
+      }
+    }
+  }
+}
